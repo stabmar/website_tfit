@@ -1,0 +1,197 @@
+.zerif-pro-nav-tabs {
+    margin-bottom: 0;
+}
+.zerif-pro-nav-tabs:after {
+    clear: both;
+    display: table;
+    content: " ";
+}
+.zerif-pro-nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+    display: block;
+}
+.zerif-pro-nav-tabs > li > a {
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    display: block;
+    padding: 10px 15px;
+	text-decoration: none;
+}
+.zerif-pro-nav-tabs > li.active > a, .zerif-pro-nav-tabs > li.active > a:focus, .zerif-pro-nav-tabs > li.active > a:hover {
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+.zerif-pro-nav-tabs > li.zerif-pro-w-red-tab > a {
+    color: red;
+    font-weight: bold;
+}
+.zerif-pro-tab-content {
+	background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    width: 960px;
+    float: left;
+}
+.zerif-pro-tab-content > .tab-pane {
+    display: none;
+}
+.zerif-pro-tab-content > .active {
+    display: block;
+}
+
+.zerif-pro-tab-pane {
+	padding: 30px;
+}
+.zerif-pro-tab-pane {
+    display: none;
+}
+.zerif-pro-tab-pane.active {
+    display: block;
+}
+
+#zerif-pro-theme-version {
+    font-size: 50%;
+    padding: 10px;
+    background: #ccc;
+}
+#zerif-pro-w-screenshot {
+    border: 1px solid #ccc;
+    margin-top: 30px;
+}
+.zerif-pro-w-activated {
+    cursor:not-allowed !important;
+}
+.zerif-tab-pane-half {
+    width: 45%;
+    float:left;
+    border-left: 1px solid #ccc;
+    padding-left: 20px;
+    margin-top: 15px;
+    padding-right: 20px;
+    margin-bottom: 15px;
+}
+.zerif-pro-tab-content img {
+    max-width: 100%;
+}
+.zerif-tab-pane-first-half {
+    border-left: none;
+}
+.zerif-tab-pane-center {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.zerif-pro-welcome-title {
+    font-size: 32px;
+}
+.zerif-pro-clear {
+    clear: both;
+}
+.zerif-pro-child-theme-container {
+    position: relative;
+}
+.zerif-pro-child-theme-description {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    overflow: auto;
+    box-sizing: border-box;
+    padding: 0;
+    max-width: 100%;
+    height: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    -webkit-transition-delay: 500ms;
+    -moz-transition-delay: 500ms;
+    -ms-transition-delay: 500ms;
+    -o-transition-delay: 500ms;
+    transition-delay: 500ms;
+}
+
+.zerif-pro-child-theme-image-container {
+    position: relative;
+    overflow: hidden;
+}
+.zerif-pro-child-theme-image-container img {
+    max-width: 100%;
+}
+.zerif-pro-child-theme-details .theme-details {
+    padding: 10px;
+    background: none repeat scroll 0 0 #F1F1F1;
+    font-size: 18px;
+}
+
+.zerif-pro-child-theme-details .theme-details.active {
+    background: none repeat scroll 0 0 #2B5F87;
+    color: #fff;
+}
+
+.zerif-pro-child-theme-details .theme-details .theme-name {
+    float:left;
+}
+.zerif-pro-child-theme-details .theme-details .preview {
+    margin-right: 2px;
+}
+.zerif-pro-actions-count {
+    padding: 0 6px;
+    display: inline-block;
+    background-color: #d54e21;
+    color: #fff;
+    font-size: 9px;
+    line-height: 17px;
+    font-weight: 600;
+    margin: 1px 0 0 2px;
+    vertical-align: top;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    z-index: 26;
+}
+.zerif-action-required-box {
+    position: relative;
+}
+.zerif-dismiss-required-action {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    background-color: #D24A4A;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+.zerif-dismiss-required-action:hover {
+    background-color: #CC8C8C;
+}
+
+/*Breakpoints*/
+
+@media (max-width: 1200px) {
+  .zerif-pro-tab-content {
+    width: 98%;
+  }
+  .zerif-tab-pane-half {
+    width: 43%;
+  }
+}
+@media (max-width: 782px) {
+
+  .zerif-tab-pane-half {
+    width: auto;
+    float: none;
+    border-left: none;
+  }
+  .zerif-welcome-title, .zerif-pro-tab-content h1 {
+    line-height: 30px;
+  }
+
+}
